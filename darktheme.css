@@ -25,6 +25,13 @@ body{
     transition: all 1s ease-in-out;
 }
 
+.nav div {
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
 .menu {
     display: flex;
     justify-content: start;
