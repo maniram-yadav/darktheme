@@ -80,3 +80,27 @@ body{
     color: white;
     transition: all 1s ease-in-out;
 }
+
+.btndark {
+    position: relative;
+    width: 70px;
+    height: 30px;
+    background-color: #4b2020;
+    border-radius: 50px;
+    border: 1px solid white;    
+    --right : 0px;
+    cursor: pointer;
+}
+
+.btndark::after {
+    content: '';
+    position: absolute;
+    top: 3;
+    right: var(--right);
+    margin: 2;
+    margin-right:5px ;
+    /* right:40px ; */
+    padding: 10px;
+    border-radius: 20px;
+    background-color: wheat;
+}
